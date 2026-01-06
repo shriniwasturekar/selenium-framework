@@ -1,0 +1,28 @@
+# Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+.apt_generated
+.factorypath
+
+# VS Code
+.vscode/
+
+# Logs & reports
+logs/
+reports/
+screenshots/
+
+# OS
+.DS_Store
+Thumbs.db
