@@ -24,9 +24,6 @@ public class BaseTest {
 
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
-        if (DriverManager.getDriver() != null) {
-            DriverManager.getDriver().quit();
-            DriverManager.unload();
-        }
+        DriverManager.quit();
     }
 }

@@ -136,8 +136,6 @@ public enum BrowserFactory {
         }
     };
 
-    private static final String START_MAXIMIZED = "--start-maximized";
-
     public abstract WebDriver createDriver();
 
     public abstract MutableCapabilities getOptions();
