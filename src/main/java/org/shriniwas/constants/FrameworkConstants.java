@@ -10,18 +10,77 @@ public class FrameworkConstants {
 
     }
 
-    public static final String PROJECT_PATH = System.getProperty("user.dir") + File.separator;
-    public static final String BROWSER = ConfigReader.get("browser");
+
+    // PROJECT ROOT
+    public static final String PROJECT_PATH =
+            System.getProperty("user.dir") + File.separator;
+
+    // BROWSER
+    public static final String BROWSER =
+            ConfigReader.get("browser");
+
+    // ENVIRONMENT
+    public static final String ENV =
+            ConfigReader.get("env");
+
+    // ===============================
+    // REPORT CONFIGURATION
+    // ===============================
 
 
-    public static final String EXTENT_REPORT_NAME = ConfigReader.get("project.name") + "_" + ConfigReader.get("extentreport.name")+".html";
-    public static final String EXTENT_REPORT_TITLE = ConfigReader.get("project.name") + "_" + ConfigReader.get("extentreport.name");
-    public static final String EXTENT_REPORT_FOLDER = PROJECT_PATH + ConfigReader.get("extentreport.path");
-    public static final String EXTENT_REPORT_FILE_PATH = EXTENT_REPORT_FOLDER + File.separator + EXTENT_REPORT_NAME;
+    public static final String EXTENT_REPORT_NAME = ConfigReader.get("project.name") + "_" +
+            ConfigReader.get("extentreport.name")+".html";
+
+    public static final String EXTENT_REPORT_TITLE = ConfigReader.get("project.name") + "_" +
+            ConfigReader.get("extentreport.name");
+
+    public static final String EXTENT_REPORT_FOLDER =
+            PROJECT_PATH + ConfigReader.get("extentreport.path");
+
+    public static final String EXTENT_REPORT_FILE_PATH =
+            EXTENT_REPORT_FOLDER + File.separator + EXTENT_REPORT_NAME;
 
     public static final String OVERRIDE_REPORT = ConfigReader.get("extentreport.override");
 
+    // ===============================
+    // RETRY CONFIGURATION
+    // ===============================
+
     public static final String MAXTRY_FAILTEST = ConfigReader.get("retry.count");
+
+
+    // ===============================
+    // TEST DATA PATHS
+    // ===============================
+
+    private static final String TESTDATA_PATH =
+            "testdata";
+
+    private static final String JSON_FOLDER =
+            TESTDATA_PATH + File.separator + "json";
+
+    private static final String EXCEL_FOLDER =
+            TESTDATA_PATH + File.separator + "excel";
+
+    public static String getJsonTestDataPath(String fileName) {
+
+        return JSON_FOLDER +
+                File.separator +
+                ENV +
+                File.separator +
+                fileName +
+                ".json";
+    }
+
+    public static String getExcelTestDataPath(String fileName) {
+
+        return EXCEL_FOLDER +
+                File.separator +
+                ENV +
+                File.separator +
+                fileName +
+                ".xlsx";
+    }
 
 
 }

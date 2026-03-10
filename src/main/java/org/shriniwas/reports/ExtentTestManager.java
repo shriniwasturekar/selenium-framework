@@ -12,9 +12,9 @@ public final class ExtentTestManager {
 
     private static final ThreadLocal<ExtentTest> extentTest = new ThreadLocal<>();
 
-
-    public static void createTest(ExtentTest test){
-        extentTest.set(test);
+    public static void createExtentTest(String testName, String description){
+        ExtentTest test = ExtentReportManager.getInstance().createTest(testName, description);
+        setTest(test);
     }
 
     public static void setTest(ExtentTest test){

@@ -1,0 +1,14 @@
+{
+  "TC_LOGIN_VALID": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "expected": "success"
+    },
+    {
+      "username": "manager",
+      "password": "manager123",
+      "expected": "success"
+    }
+  ]
+}

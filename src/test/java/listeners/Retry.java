@@ -11,10 +11,10 @@ public class Retry implements IRetryAnalyzer {
     private static int maxTry = Integer.parseInt(FrameworkConstants.MAXTRY_FAILTEST);
 
     public boolean retry(ITestResult iTestResult){
-        if(!iTestResult.isSuccess() && count<maxTry){
-                ExtentTestManager.remove();
-                count++;
-                return true;
+        if (!iTestResult.isSuccess() && count < maxTry) {
+            ExtentTestManager.remove();
+            count++;
+            return true;
         }
         return false;
     }
