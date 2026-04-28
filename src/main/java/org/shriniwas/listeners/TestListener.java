@@ -68,7 +68,7 @@ public class TestListener implements ITestListener, ISuiteListener, IInvokedMeth
 
             EmailUtil.sendEmail(
                     body,
-                    FrameworkConstants.EXTENT_REPORT_FILE_PATH
+                    ExtentReportManager.getReportPath()
             );
         }
     }
@@ -100,8 +100,11 @@ public class TestListener implements ITestListener, ISuiteListener, IInvokedMeth
                         iTestResult.getThrowable().getMessage()
         );
 
-        ExtentLogger.logFail("Test case : " + getTestName(iTestResult) + " is failed.");
-
+        if(iTestResult.getThrowable()!=null) {
+            ExtentLogger.logFail("Test case : " + getTestName(iTestResult) + " is failed.", iTestResult.getThrowable());
+        } else {
+            ExtentLogger.logFail("Test case : " + getTestName(iTestResult) + " is failed.");
+        }
     }
 
     @Override

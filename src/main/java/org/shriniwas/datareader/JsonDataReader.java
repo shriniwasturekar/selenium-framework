@@ -30,7 +30,6 @@ public class JsonDataReader implements DataReader {
                     Thread.currentThread()
                             .getContextClassLoader()
                             .getResourceAsStream(path);
-            
 
             Map<String,List<T>> data =
                     mapper.readValue(

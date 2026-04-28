@@ -72,12 +72,12 @@ public class ExcelReaderPractice implements DataReader {
             return (List<T>)mapList;
         }
 
-        List<T> newList = new ArrayList<>();
+        List<T> jsonResult = new ArrayList<>();
 
         for (Map<String, String> row : mapList){
-            newList.add(mapper.convertValue(row,tClass));
+            jsonResult.add(mapper.convertValue(row,tClass));
         }
-        return newList;
+        return jsonResult ;
     }
 
 }

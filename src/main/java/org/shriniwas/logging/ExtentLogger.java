@@ -32,6 +32,12 @@ public class ExtentLogger {
         ExtentTestManager.getTest().fail(message,getScreenshotMedia());
     }
 
+    public static void logFail(String message,Throwable t){
+        ExtentTestManager.getTest()
+                .fail(message,getScreenshotMedia())
+                .fail(t);
+    }
+
     public static void logSkip(String message){
         log(Status.SKIP,message);
 

@@ -4,6 +4,7 @@ public class LoginData {
 
     private String username;
     private String password;
+    private String client;
     private String expected;
 
     public String getUsername() {
@@ -12,6 +13,10 @@ public class LoginData {
 
     public String getPassword() {
         return password;
+    }
+
+    public String getClient() {
+        return client;
     }
 
     public String getExpected() {

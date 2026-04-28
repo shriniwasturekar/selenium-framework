@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: testcases.CreateAuditTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.40 s -- in testcases.CreateAuditTests

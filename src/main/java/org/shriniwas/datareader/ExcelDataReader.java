@@ -31,6 +31,18 @@ public class ExcelDataReader implements DataReader {
                             .getContextClassLoader()
                             .getResourceAsStream(path);
 
+            if (stream == null) {
+                String fallbackPath =
+                        FrameworkConstants.getExcelTestDataPath(fileName.toLowerCase());
+                stream = Thread.currentThread()
+                        .getContextClassLoader()
+                        .getResourceAsStream(fallbackPath);
+            }
+
+            if (stream == null) {
+                throw new RuntimeException("Excel test data file not found for: " + fileName);
+            }
+
             Workbook workbook = WorkbookFactory.create(stream);
 
             Sheet sheet = workbook.getSheetAt(0);
@@ -66,6 +78,7 @@ public class ExcelDataReader implements DataReader {
                 }
 
                 mapData.add(map);
+
             }
 
             workbook.close();

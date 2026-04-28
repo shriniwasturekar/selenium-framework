@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class TestDataManager {
 
-    private static final ConcurrentHashMap<String,Object> CACHE =
+    private static final ConcurrentHashMap<String, List<?>> CACHE =
             new ConcurrentHashMap<>();
 
     public static <T> List<T> getTestData(
@@ -14,18 +14,13 @@ public class TestDataManager {
             Class<T> clazz) {
 
         String fileName =
-                className.replace("Test","").toLowerCase();
+                className.replaceFirst("Tests?$", "");
 
-        String cacheKey =
-                fileName + "_" + testName + "_" + clazz.getName();
+        DataReader reader =
+                DataReaderFactory.getReader();
 
-        return (List<T>) CACHE.computeIfAbsent(cacheKey, key -> {
+        return reader.getData(fileName, testName, clazz);
 
-            DataReader reader =
-                    DataReaderFactory.getReader();
 
-            return reader.getData(fileName,testName,clazz);
-
-        });
     }
 }

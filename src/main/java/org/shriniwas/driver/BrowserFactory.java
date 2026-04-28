@@ -38,7 +38,7 @@ public enum BrowserFactory {
             prefs.put("profile.default_content_setting_values.notifications", 2);
             prefs.put("credentials_enable_service", false);
             prefs.put("profile.password_manager_enabled", false);
-            prefs.put("autofill.profile_enabled", false); //Turn off Save Address popup
+            prefs.put("autofill.profile_enabled", false);
             options.setExperimentalOption("prefs", prefs);
 
             options.addArguments("--disable-extensions");
@@ -48,7 +48,7 @@ public enum BrowserFactory {
 
             options.setAcceptInsecureCerts(true);
 
-            if (Boolean.valueOf(ConfigReader.get("headless")) == true) {
+            if (Boolean.parseBoolean(ConfigReader.get("headless"))) {
                 options.addArguments("--headless=new");
                 options.addArguments("--disable-gpu");
                 options.addArguments("--no-sandbox");
@@ -70,7 +70,7 @@ public enum BrowserFactory {
         public MutableCapabilities getOptions() {
             EdgeOptions options = new EdgeOptions();
 
-            Map<String, Object> prefs = new HashMap<String, Object>();
+            Map<String, Object> prefs = new HashMap< String, Object>();
             prefs.put("profile.default_content_setting_values.notifications", 2);
             prefs.put("credentials_enable_service", false);
             prefs.put("profile.password_manager_enabled", false);
@@ -84,7 +84,7 @@ public enum BrowserFactory {
 
             options.setAcceptInsecureCerts(true);
 
-            if (Boolean.valueOf(ConfigReader.get("headless")) == true) {
+            if (Boolean.parseBoolean(ConfigReader.get("headless"))) {
                 options.addArguments("--headless=new");
                 options.addArguments("--disable-gpu");
                 options.addArguments("--no-sandbox");
@@ -108,7 +108,7 @@ public enum BrowserFactory {
 
             options.setAcceptInsecureCerts(true);
 
-            if (Boolean.valueOf(ConfigReader.get("headless")) == true) {
+            if (Boolean.parseBoolean(ConfigReader.get("headless"))) {
                 options.addArguments("-headless");
                 options.addArguments("--width=1850");
                 options.addArguments("--height=1000");
@@ -129,7 +129,7 @@ public enum BrowserFactory {
             SafariOptions options = new SafariOptions();
             options.setAutomaticInspection(false);
 
-            if (TRUE.equals(Boolean.valueOf(ConfigReader.get("headless"))))
+            if (Boolean.parseBoolean(ConfigReader.get("headless")))
                 throw new HeadlessNotSupportedException(options.getBrowserName());
 
             return options;

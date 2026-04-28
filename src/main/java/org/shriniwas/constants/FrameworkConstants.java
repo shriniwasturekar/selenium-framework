@@ -35,7 +35,7 @@ public class FrameworkConstants {
             ConfigReader.get("extentreport.name");
 
     public static final String EXTENT_REPORT_FOLDER =
-            PROJECT_PATH + ConfigReader.get("extentreport.path");
+            PROJECT_PATH + ConfigReader.get("extentreport.folder");
 
     public static final String EXTENT_REPORT_FILE_PATH =
             EXTENT_REPORT_FOLDER + File.separator + EXTENT_REPORT_NAME;
@@ -57,17 +57,17 @@ public class FrameworkConstants {
             "testdata";
 
     private static final String JSON_FOLDER =
-            TESTDATA_PATH + File.separator + "json";
+            TESTDATA_PATH + "/json";
 
     private static final String EXCEL_FOLDER =
-            TESTDATA_PATH + File.separator + "excel";
+            TESTDATA_PATH + "/excel";
 
     public static String getJsonTestDataPath(String fileName) {
 
         return JSON_FOLDER +
-                File.separator +
+                "/" +
                 ENV +
-                File.separator +
+                "/" +
                 fileName +
                 ".json";
     }
@@ -75,9 +75,9 @@ public class FrameworkConstants {
     public static String getExcelTestDataPath(String fileName) {
 
         return EXCEL_FOLDER +
-                File.separator +
+                "/" +
                 ENV +
-                File.separator +
+                "/" +
                 fileName +
                 ".xlsx";
     }
