@@ -1,0 +1,74 @@
+2026-03-12 19:54:47.617 [main] INFO  TestListener - **********Run Started**********
+2026-03-12 19:54:47.621 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-12 19:54:54.213 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-12 19:54:54.356 [TestNG-PoolService-1] ERROR TestListener - Test case : validLoginTest is failed.
+2026-03-12 19:54:54.357 [TestNG-PoolService-1] ERROR TestListener - java.lang.AssertionError: null
+2026-03-12 19:54:54.622 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-12 19:54:54.622 [main] INFO  TestListener - **********Run Finished**********
+2026-03-12 19:57:42.142 [main] INFO  TestListener - **********Run Started**********
+2026-03-12 19:57:42.757 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-12 19:58:13.022 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-12 19:58:13.166 [TestNG-PoolService-1] ERROR TestListener - Test case : validLoginTest is failed.
+2026-03-12 19:58:13.167 [TestNG-PoolService-1] ERROR TestListener - java.lang.AssertionError: null
+2026-03-12 19:58:14.350 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-12 19:58:14.351 [main] INFO  TestListener - **********Run Finished**********
+2026-03-12 19:59:24.933 [main] INFO  TestListener - **********Run Started**********
+2026-03-12 19:59:24.937 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-12 19:59:29.606 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-12 19:59:29.746 [TestNG-PoolService-1] ERROR TestListener - Test case : validLoginTest is failed.
+2026-03-12 19:59:29.747 [TestNG-PoolService-1] ERROR TestListener - java.lang.AssertionError: null
+2026-03-12 19:59:37.518 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-12 19:59:38.362 [main] INFO  TestListener - **********Run Finished**********
+2026-03-12 20:01:05.659 [main] INFO  TestListener - **********Run Started**********
+2026-03-12 20:01:05.662 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-12 20:01:12.116 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-12 20:01:12.260 [TestNG-PoolService-1] ERROR TestListener - Test case : validLoginTest is failed.
+2026-03-12 20:01:12.260 [TestNG-PoolService-1] ERROR TestListener - java.lang.AssertionError: null
+2026-03-12 20:01:15.827 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-12 20:01:15.828 [main] INFO  TestListener - **********Run Finished**********
+2026-03-12 20:12:05.550 [main] INFO  TestListener - **********Run Started**********
+2026-03-12 20:12:05.554 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-12 20:12:10.409 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-12 20:12:10.550 [TestNG-PoolService-1] ERROR TestListener - Test case : validLoginTest is failed.
+2026-03-12 20:12:10.551 [TestNG-PoolService-1] ERROR TestListener - java.lang.AssertionError: null
+2026-03-12 20:12:15.398 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-12 20:12:15.398 [main] INFO  TestListener - **********Run Finished**********
+2026-03-12 20:20:25.406 [main] INFO  TestListener - **********Run Started**********
+2026-03-12 20:20:25.409 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-12 20:20:30.877 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-12 20:20:31.008 [TestNG-PoolService-1] ERROR TestListener - Test case : validLoginTest is failed.
+2026-03-12 20:20:31.009 [TestNG-PoolService-1] ERROR TestListener - java.lang.AssertionError: null
+2026-03-12 20:20:31.252 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-12 20:20:31.252 [main] INFO  TestListener - **********Run Finished**********
+2026-03-12 20:21:40.892 [main] INFO  TestListener - **********Run Started**********
+2026-03-12 20:21:40.896 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-12 20:21:45.775 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-12 20:21:45.904 [TestNG-PoolService-1] ERROR TestListener - Test case : validLoginTest is failed.
+2026-03-12 20:21:45.905 [TestNG-PoolService-1] ERROR TestListener - java.lang.AssertionError: null
+2026-03-12 20:21:46.156 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-12 20:21:46.156 [main] INFO  TestListener - **********Run Finished**********
+2026-03-12 20:25:44.739 [main] INFO  TestListener - **********Run Started**********
+2026-03-12 20:25:44.743 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-12 20:25:50.112 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-12 20:25:50.245 [TestNG-PoolService-1] ERROR TestListener - Test case : validLoginTest is failed.
+2026-03-12 20:25:50.246 [TestNG-PoolService-1] ERROR TestListener - java.lang.AssertionError: null
+2026-03-12 20:25:50.498 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-12 20:25:50.498 [main] INFO  TestListener - **********Run Finished**********
+2026-03-12 21:18:15.266 [main] INFO  TestListener - **********Run Started**********
+2026-03-12 21:18:15.269 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-12 21:18:19.724 [TestNG-test-LoginTests-4] INFO  TestListener - Starting Test Execution for TC : loginPageShouldDisplayCoreControls
+2026-03-12 21:18:19.784 [TestNG-test-LoginTests-1] INFO  TestListener - Starting Test Execution for TC : forgotPasswordLinkShouldNavigateToRecoveryPage
+2026-03-12 21:18:20.061 [TestNG-test-LoginTests-4] INFO  TestListener - Test case : loginPageShouldDisplayCoreControls is passed.
+2026-03-12 21:18:20.300 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : invalidPasswordLoginTest
+2026-03-12 21:18:20.965 [TestNG-test-LoginTests-1] INFO  TestListener - Test case : forgotPasswordLinkShouldNavigateToRecoveryPage is passed.
+2026-03-12 21:18:21.040 [TestNG-test-LoginTests-2] INFO  TestListener - Starting Test Execution for TC : forgotUserIdLinkShouldNavigateToRecoveryPage
+2026-03-12 21:18:22.132 [TestNG-test-LoginTests-2] INFO  TestListener - Test case : forgotUserIdLinkShouldNavigateToRecoveryPage is passed.
+2026-03-12 21:18:23.596 [TestNG-test-LoginTests-4] INFO  TestListener - Starting Test Execution for TC : loginShouldShowValidationMessagesForEmptySubmission
+2026-03-12 21:18:24.043 [TestNG-PoolService-1] INFO  TestListener - Test case : invalidPasswordLoginTest is passed.
+2026-03-12 21:18:24.853 [TestNG-test-LoginTests-4] INFO  TestListener - Test case : loginShouldShowValidationMessagesForEmptySubmission is passed.
+2026-03-12 21:18:25.068 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : missingClientLoginTest
+2026-03-12 21:18:25.429 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-12 21:18:26.494 [TestNG-PoolService-1] INFO  TestListener - Test case : missingClientLoginTest is passed.
+2026-03-12 21:18:30.787 [TestNG-PoolService-1] INFO  TestListener - Test case : validLoginTest is passed.
+2026-03-12 21:18:30.898 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-12 21:18:30.898 [main] INFO  TestListener - **********Run Finished**********

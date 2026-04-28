@@ -1,0 +1,90 @@
+2026-03-17 17:23:08.145 [main] INFO  TestListener - **********Run Started**********
+2026-03-17 17:23:08.152 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-17 17:23:12.259 [TestNG-test-LoginTests-2] INFO  TestListener - Starting Test Execution for TC : forgotUserIdLinkShouldNavigateToRecoveryPage
+2026-03-17 17:23:12.405 [TestNG-test-LoginTests-1] INFO  TestListener - Starting Test Execution for TC : forgotPasswordLinkShouldNavigateToRecoveryPage
+2026-03-17 17:23:12.931 [TestNG-test-LoginTests-4] INFO  TestListener - Starting Test Execution for TC : loginPageShouldDisplayCoreControls
+2026-03-17 17:23:13.067 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : invalidPasswordLoginTest
+2026-03-17 17:23:13.181 [TestNG-test-LoginTests-4] INFO  TestListener - Test case : loginPageShouldDisplayCoreControls is passed.
+2026-03-17 17:23:13.506 [TestNG-test-LoginTests-2] INFO  TestListener - Test case : forgotUserIdLinkShouldNavigateToRecoveryPage is passed.
+2026-03-17 17:23:14.352 [TestNG-test-LoginTests-1] INFO  TestListener - Test case : forgotPasswordLinkShouldNavigateToRecoveryPage is passed.
+2026-03-17 17:23:16.586 [TestNG-test-LoginTests-4] INFO  TestListener - Starting Test Execution for TC : loginShouldShowValidationMessagesForEmptySubmission
+2026-03-17 17:23:16.802 [TestNG-PoolService-1] INFO  TestListener - Test case : invalidPasswordLoginTest is passed.
+2026-03-17 17:23:17.306 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : missingClientLoginTest
+2026-03-17 17:23:17.478 [TestNG-test-LoginTests-4] INFO  TestListener - Test case : loginShouldShowValidationMessagesForEmptySubmission is passed.
+2026-03-17 17:23:17.790 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-17 17:23:18.463 [TestNG-PoolService-1] INFO  TestListener - Test case : missingClientLoginTest is passed.
+2026-03-17 17:23:21.905 [TestNG-PoolService-1] INFO  TestListener - Test case : validLoginTest is passed.
+2026-03-17 17:23:22.023 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-17 17:23:22.023 [main] INFO  TestListener - **********Run Finished**********
+2026-03-17 17:25:17.401 [main] INFO  TestListener - **********Run Started**********
+2026-03-17 17:25:17.404 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-17 17:25:21.482 [TestNG-test-LoginTests-1] INFO  TestListener - Starting Test Execution for TC : forgotPasswordLinkShouldNavigateToRecoveryPage
+2026-03-17 17:25:21.729 [TestNG-test-LoginTests-2] INFO  TestListener - Starting Test Execution for TC : forgotUserIdLinkShouldNavigateToRecoveryPage
+2026-03-17 17:25:22.050 [TestNG-test-LoginTests-4] INFO  TestListener - Starting Test Execution for TC : loginPageShouldDisplayCoreControls
+2026-03-17 17:25:22.288 [TestNG-test-LoginTests-4] INFO  TestListener - Test case : loginPageShouldDisplayCoreControls is passed.
+2026-03-17 17:25:22.674 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : invalidPasswordLoginTest
+2026-03-17 17:25:22.729 [TestNG-test-LoginTests-2] INFO  TestListener - Test case : forgotUserIdLinkShouldNavigateToRecoveryPage is passed.
+2026-03-17 17:25:23.066 [TestNG-test-LoginTests-1] INFO  TestListener - Test case : forgotPasswordLinkShouldNavigateToRecoveryPage is passed.
+2026-03-17 17:25:25.916 [TestNG-test-LoginTests-4] INFO  TestListener - Starting Test Execution for TC : loginShouldShowValidationMessagesForEmptySubmission
+2026-03-17 17:25:27.151 [TestNG-PoolService-1] INFO  TestListener - Test case : invalidPasswordLoginTest is passed.
+2026-03-17 17:25:27.301 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-17 17:25:27.342 [TestNG-test-LoginTests-4] INFO  TestListener - Test case : loginShouldShowValidationMessagesForEmptySubmission is passed.
+2026-03-17 17:25:30.550 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : missingClientLoginTest
+2026-03-17 17:25:32.060 [TestNG-PoolService-1] INFO  TestListener - Test case : validLoginTest is passed.
+2026-03-17 17:25:33.451 [TestNG-PoolService-1] INFO  TestListener - Test case : missingClientLoginTest is passed.
+2026-03-17 17:25:33.654 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-17 17:25:33.654 [main] INFO  TestListener - **********Run Finished**********
+2026-03-17 17:32:11.521 [main] INFO  TestListener - **********Run Started**********
+2026-03-17 17:32:11.525 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-17 17:32:14.871 [TestNG-test-LoginTests-1] INFO  TestListener - Starting Test Execution for TC : forgotPasswordLinkShouldNavigateToRecoveryPage
+2026-03-17 17:32:16.227 [TestNG-test-LoginTests-1] INFO  TestListener - Test case : forgotPasswordLinkShouldNavigateToRecoveryPage is passed.
+2026-03-17 17:32:19.656 [TestNG-test-LoginTests-1] INFO  TestListener - Starting Test Execution for TC : forgotUserIdLinkShouldNavigateToRecoveryPage
+2026-03-17 17:32:20.466 [TestNG-test-LoginTests-1] INFO  TestListener - Test case : forgotUserIdLinkShouldNavigateToRecoveryPage is passed.
+2026-03-17 17:32:24.410 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : invalidPasswordLoginTest
+2026-03-17 17:32:27.374 [TestNG-PoolService-1] INFO  TestListener - Test case : invalidPasswordLoginTest is passed.
+2026-03-17 17:32:30.924 [TestNG-test-LoginTests-1] INFO  TestListener - Starting Test Execution for TC : loginPageShouldDisplayCoreControls
+2026-03-17 17:32:31.090 [TestNG-test-LoginTests-1] INFO  TestListener - Test case : loginPageShouldDisplayCoreControls is passed.
+2026-03-17 17:32:34.457 [TestNG-test-LoginTests-1] INFO  TestListener - Starting Test Execution for TC : loginShouldShowValidationMessagesForEmptySubmission
+2026-03-17 17:32:35.249 [TestNG-test-LoginTests-1] INFO  TestListener - Test case : loginShouldShowValidationMessagesForEmptySubmission is passed.
+2026-03-17 17:32:38.371 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : missingClientLoginTest
+2026-03-17 17:32:39.406 [TestNG-PoolService-1] INFO  TestListener - Test case : missingClientLoginTest is passed.
+2026-03-17 17:32:43.449 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-17 17:32:47.714 [TestNG-PoolService-1] INFO  TestListener - Test case : validLoginTest is passed.
+2026-03-17 17:32:47.850 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-17 17:32:47.850 [main] INFO  TestListener - **********Run Finished**********
+2026-03-17 17:33:37.091 [main] INFO  TestListener - **********Run Started**********
+2026-03-17 17:33:37.095 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-17 17:33:41.612 [TestNG-test-LoginTests-1] INFO  TestListener - Starting Test Execution for TC : forgotPasswordLinkShouldNavigateToRecoveryPage
+2026-03-17 17:33:41.688 [TestNG-test-LoginTests-4] INFO  TestListener - Starting Test Execution for TC : loginPageShouldDisplayCoreControls
+2026-03-17 17:33:41.837 [TestNG-test-LoginTests-2] INFO  TestListener - Starting Test Execution for TC : forgotUserIdLinkShouldNavigateToRecoveryPage
+2026-03-17 17:33:42.203 [TestNG-test-LoginTests-4] INFO  TestListener - Test case : loginPageShouldDisplayCoreControls is passed.
+2026-03-17 17:33:42.382 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : invalidPasswordLoginTest
+2026-03-17 17:33:42.879 [TestNG-test-LoginTests-1] INFO  TestListener - Test case : forgotPasswordLinkShouldNavigateToRecoveryPage is passed.
+2026-03-17 17:33:42.924 [TestNG-test-LoginTests-2] INFO  TestListener - Test case : forgotUserIdLinkShouldNavigateToRecoveryPage is passed.
+2026-03-17 17:33:46.052 [TestNG-test-LoginTests-4] INFO  TestListener - Starting Test Execution for TC : loginShouldShowValidationMessagesForEmptySubmission
+2026-03-17 17:33:46.778 [TestNG-PoolService-1] INFO  TestListener - Test case : invalidPasswordLoginTest is passed.
+2026-03-17 17:33:46.890 [TestNG-test-LoginTests-4] INFO  TestListener - Test case : loginShouldShowValidationMessagesForEmptySubmission is passed.
+2026-03-17 17:33:47.725 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : missingClientLoginTest
+2026-03-17 17:33:47.823 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-17 17:33:49.480 [TestNG-PoolService-1] INFO  TestListener - Test case : missingClientLoginTest is passed.
+2026-03-17 17:33:52.215 [TestNG-PoolService-1] INFO  TestListener - Test case : validLoginTest is passed.
+2026-03-17 17:33:52.347 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-17 17:33:52.347 [main] INFO  TestListener - **********Run Finished**********
+2026-03-17 17:35:07.402 [main] INFO  TestListener - **********Run Started**********
+2026-03-17 17:35:07.406 [main] INFO  TestListener - Starting Suite ---> FrameworkSuite
+2026-03-17 17:35:11.377 [TestNG-test-LoginTests-1] INFO  TestListener - Starting Test Execution for TC : forgotPasswordLinkShouldNavigateToRecoveryPage
+2026-03-17 17:35:12.832 [TestNG-test-LoginTests-1] INFO  TestListener - Test case : forgotPasswordLinkShouldNavigateToRecoveryPage is passed.
+2026-03-17 17:35:16.231 [TestNG-test-LoginTests-1] INFO  TestListener - Starting Test Execution for TC : forgotUserIdLinkShouldNavigateToRecoveryPage
+2026-03-17 17:35:17.021 [TestNG-test-LoginTests-1] INFO  TestListener - Test case : forgotUserIdLinkShouldNavigateToRecoveryPage is passed.
+2026-03-17 17:35:21.039 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : invalidPasswordLoginTest
+2026-03-17 17:35:23.908 [TestNG-PoolService-1] INFO  TestListener - Test case : invalidPasswordLoginTest is passed.
+2026-03-17 17:35:27.208 [TestNG-test-LoginTests-1] INFO  TestListener - Starting Test Execution for TC : loginPageShouldDisplayCoreControls
+2026-03-17 17:35:27.379 [TestNG-test-LoginTests-1] INFO  TestListener - Test case : loginPageShouldDisplayCoreControls is passed.
+2026-03-17 17:35:30.683 [TestNG-test-LoginTests-1] INFO  TestListener - Starting Test Execution for TC : loginShouldShowValidationMessagesForEmptySubmission
+2026-03-17 17:35:31.482 [TestNG-test-LoginTests-1] INFO  TestListener - Test case : loginShouldShowValidationMessagesForEmptySubmission is passed.
+2026-03-17 17:35:34.736 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : missingClientLoginTest
+2026-03-17 17:35:35.963 [TestNG-PoolService-1] INFO  TestListener - Test case : missingClientLoginTest is passed.
+2026-03-17 17:35:39.339 [TestNG-PoolService-1] INFO  TestListener - Starting Test Execution for TC : validLoginTest
+2026-03-17 17:35:43.526 [TestNG-PoolService-1] INFO  TestListener - Test case : validLoginTest is passed.
+2026-03-17 17:35:43.670 [main] INFO  TestListener - End Suite --->FrameworkSuite
+2026-03-17 17:35:43.670 [main] INFO  TestListener - **********Run Finished**********
